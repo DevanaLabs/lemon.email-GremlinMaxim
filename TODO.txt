@@ -1,0 +1,3 @@
+- connection issues handling
+- pick weights for messages for random selection
+- print measurements periodically?
