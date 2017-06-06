@@ -1,10 +1,10 @@
-# gremlin-maxim
+# GremlinMaxim
 
-SMTP/IMAP clients for load testing of lemon-mail system.
+SMTP/IMAP clients for load testing
 
 ## maxim usage
 
-Maxim is smtp stress testing client. Start program with no arguments for short usage message:
+Maxim is an smtp stress testing client. Start the program with no arguments for short usage message:
 
 ```
 Usage: maxim [options] -d <msgs_directory> <smtp_host:smtp_port>
@@ -28,11 +28,11 @@ Options:
   -v    print what's happening
 ```
 
-Create `msgs_directory` and fill it with files of SMTP messages you would like to be sent. Program will randomly pick one to send, so control the probabilities with number of message (types).
+Create `msgs_directory` and fill it with files of SMTP messages you would like to be sent. It will randomly pick one to send, so control the probabilities with number of message (types).
 
 ## gremlin usage
 
-Maxim is imam stress testing client. Start program with no arguments for short usage message:
+Maxim is an imap stress testing client. Start the program with no arguments for short usage message:
 
 ```
 Usage: gremlin [options] <imap_host:imap_port>
@@ -50,4 +50,4 @@ Options:
   -v    print what's happening
 ```
 
-Gremlin uses implemented "imap script" which connects to imap server, selects "INBOX" folder and fetches last 10 messages.
+Gremlin uses an implemented "imap script" which connects to an imap server, selects the "INBOX" folder and fetches the last 10 messages.
