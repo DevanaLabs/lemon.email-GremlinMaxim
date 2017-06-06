@@ -20,7 +20,7 @@ Options:
   -h string
         smtp helo/ehlo identification string (default "localhost")
   -m int
-        number of messags for recipient per smtp session (default 1)
+        number of messages for recipient per smtp session (default 1)
   -r string
         string format of envelope recepient (default "rcptto@domain.com")
   -s int
