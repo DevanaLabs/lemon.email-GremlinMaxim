@@ -140,7 +140,7 @@ func Session(ctx *SessionCtx, opt *Options) {
     for i := 0; i < opt.Messages; i++ {
         for j := 0; j < opt.RcptCount; j++ {
             path = ctx.emails[rand.Intn(num)]
-            recepient = fmt.Sprintf(opt.RcptFormat, j)
+            recepient = fmt.Sprintf(opt.RcptFormat)
 
             if opt.Verbose {
                 fmt.Printf("[%s] Sending message %d [%s] for %s\n", ctx.id, i, path, recepient)
