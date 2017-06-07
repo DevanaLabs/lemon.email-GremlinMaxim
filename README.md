@@ -4,7 +4,7 @@ SMTP/IMAP clients for load testing
 
 ## maxim usage
 
-Maxim is an smtp stress testing client. Start the program with no arguments for short usage message:
+Maxim is an smtp stress testing client. Start the program with no arguments for a short usage message:
 
 ```
 Usage: maxim [options] -d <msgs_directory> <smtp_host:smtp_port>
@@ -32,7 +32,7 @@ Create `msgs_directory` and fill it with files of SMTP messages you would like t
 
 ## gremlin usage
 
-Maxim is an imap stress testing client. Start the program with no arguments for short usage message:
+Maxim is an imap stress testing client. Start the program with no arguments for a short usage message:
 
 ```
 Usage: gremlin [options] <imap_host:imap_port>
